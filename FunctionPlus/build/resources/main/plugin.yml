@@ -1,0 +1,19 @@
+name: FunctionPlus
+version: 1.1.0
+main: com.example.functionplus.FunctionPlus
+api-version: "1.21"
+softdepend:
+  - ProtocolLib
+
+commands:
+  mobtoumei:
+    description: Mob透明化切替
+  kotei:
+    description: Mob固定切替
+  mobkoe:
+    description: Mob消音切替
+  moblook:
+    description: 透明化Mob輪郭表示切替
+  functionpluslog:
+    description: FunctionPlusログ表示
+    usage: /functionpluslog [件数]
